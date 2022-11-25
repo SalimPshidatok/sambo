@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sambo3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="341dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013"
+        app:srcCompat="@drawable/_639255624_42_papik_pro_p_sambo_klipart_46" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="356dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/_3440_750" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="302dp"
+        android:text="В самбо разрешается применять броски, удержания и болевые приёмы на руки и ноги. Броски можно проводить с помощью рук, ног и туловища. В самбо присуждаются баллы за броски и удержания. Бросок — это приём, с помощью которого самбист выводит соперника из равновесия и бросает на ковёр на какую-либо часть туловища или колени. Если самбист, прижимаясь к сопернику любой частью туловища, удерживает его в этом положении в течение 20 секунд, то такой прием называется – удержание. В самбо есть возможность досрочной победы, для этого необходимо выполнить бросок соперника на спину, оставаясь в стойке, провести болевой прием, набрать на 8 баллов больше соперника."
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="112dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.279"
+        app:srcCompat="@drawable/_637938432_1_sportishka_com_p_sambo_emblema_krasivie_sportivnie_foto_1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="111dp"
+        android:layout_height="123dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/_630691495_24_papik_pro_p_sambo_risunok_detskii_27" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="198dp"
+        android:layout_height="127dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784"
+        app:srcCompat="@drawable/img_33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
